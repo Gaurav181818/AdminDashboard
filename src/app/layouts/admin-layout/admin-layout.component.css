@@ -1,0 +1,28 @@
+.header{
+    top:0;
+    left: 0;
+    right:0;
+    position: fixed;
+    background:#004C93;
+    height: 50px;
+    line-height: 50px;
+    padding:0 20px;
+}
+.body{
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#sidebar{
+    width: 240px;
+    background: #002D57;
+    overflow: hidden;
+    transition: 0.5s;
+    color: white;
+}
+#content{
+    padding: 20px;
+   width: 100%;
+   background:transparent;
+}

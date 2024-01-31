@@ -1,0 +1,22 @@
+
+.header{
+  height: 50px;
+  background: rgb(157, 0,172);
+  top:0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+.page-content{
+    margin-top: 50px;
+    min-height: calc(100vh-100px);
+    background: rgb(255, 172, 95);
+    margin-bottom: 0;
+}
+.footer{
+    top: 0;
+    left:0;
+    right:0;
+    min-height: 50px;
+    background: rgb(105,0,109);
+}
